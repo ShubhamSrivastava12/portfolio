@@ -43,12 +43,12 @@ const WorkExperience = () => {
                 Full Stack Developer Intern
               </h3>
 
-              <p className="text-xl font-semibold text-blue-600 mt-1">
+              <p className="text-xl font-semibold text-primary mt-1">
                 Tech Vimal Corporation Pvt. Ltd.
               </p>
             </div>
 
-            <span className="w-fit rounded-full bg-blue-50 px-5 py-2 text-sm font-semibold text-blue-700">
+            <span className="w-fit rounded-full bg-primary/10 px-5 py-2 text-sm font-semibold text-secondary">
               November 2025 – April 2026
             </span>
           </div>
@@ -78,7 +78,7 @@ const WorkExperience = () => {
                   key={index}
                   className="flex items-start gap-3 rounded-xl border border-gray-100 p-4 hover:shadow-md transition"
                 >
-                  <div className="mt-2 h-2.5 w-2.5 rounded-full bg-blue-600 shrink-0"></div>
+                  <div className="mt-2 h-2.5 w-2.5 rounded-full bg-primary shrink-0"></div>
 
                   <p className="text-gray-700 leading-7">{item}</p>
                 </div>
@@ -95,12 +95,12 @@ const WorkExperience = () => {
         ServiceNow Developer Intern
       </h3>
 
-      <p className="text-xl font-semibold text-blue-600 mt-1">
+      <p className="text-xl font-semibold text-primary mt-1">
         Bangmetric Services, Noida
       </p>
     </div>
 
-    <span className="w-fit rounded-full bg-blue-50 px-5 py-2 text-sm font-semibold text-blue-700">
+    <span className="w-fit rounded-full bg-primary/10 px-5 py-2 text-sm font-semibold text-secondary">
       February 2025 – April 2025
     </span>
   </div>
@@ -131,7 +131,7 @@ const WorkExperience = () => {
           key={index}
           className="flex items-start gap-3 rounded-xl border border-gray-100 p-4 hover:shadow-md transition"
         >
-          <div className="mt-2 h-2.5 w-2.5 rounded-full bg-blue-600 shrink-0"></div>
+          <div className="mt-2 h-2.5 w-2.5 rounded-full bg-primary shrink-0"></div>
 
           <p className="text-gray-700 leading-7">{item}</p>
         </div>

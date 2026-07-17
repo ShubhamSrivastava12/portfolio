@@ -1,6 +1,5 @@
 import React from "react";
-import phone2 from "/phone2.png";
-import ipad from "/ipad.png";
+import { Check } from "lucide-react";
 
 const Project2 = () => {
   const features = [
@@ -50,7 +49,7 @@ const Project2 = () => {
 
         {/* Heading */}
         <div className="mb-16 ml-15">
-          <p className="text-blue-600 uppercase tracking-[0.3em] text-sm font-semibold">
+          <p className="text-primary uppercase tracking-[0.3em] text-sm font-semibold">
             Project 2
           </p>
 
@@ -65,7 +64,7 @@ const Project2 = () => {
           {/* Left */}
           <div className="flex justify-center -ml-20">
             <img
-              src={ipad}
+              src='/ipad.png'
               alt="AI Image Generator Mobile Mockup"
               className="w-[650px] md:w-[850px] drop-shadow-[0_20px_60px_rgba(59,130,246,0.25)]"
             />
@@ -95,7 +94,10 @@ const Project2 = () => {
                   key={index}
                   className="flex items-start gap-3 text-gray-700"
                 >
-                  <span className="text-blue-600 mt-1">✔</span>
+                  <Check
+        size={18}
+        className="text-primary mt-1 flex-shrink-0"
+      />
                   <span>{feature}</span>
                 </li>
               ))}
@@ -189,7 +191,7 @@ const Project2 = () => {
           {/* Right */}
           <div className="flex justify-center">
             <img
-              src={phone2}
+              src='/phone2.png'
               alt="AI Image Generator iPad Mockup"
               className="w-[1200px] max-w-5xl drop-shadow-[0_20px_60px_rgba(59,130,246,0.25)]"
             />

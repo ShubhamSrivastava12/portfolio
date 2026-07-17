@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #000473;
+  --color-secondary: #686b0e;
+}
+
+img {
+  transform-style: preserve-3d;
+  transition: transform .2s ease;
+}

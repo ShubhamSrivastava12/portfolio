@@ -11,12 +11,16 @@ const About = () => {
           
           {/* Left Side (Logo Placeholder) */}
           <div className="hidden lg:flex items-center justify-center">
-            {/* Future Logo */}
-          </div>
+  <img
+    src="/about.png"
+    alt="About"
+    className="w-[420px] xl:w-[500px] object-contain"
+  />
+</div>
 
           {/* Right Side */}
           <div className="max-w-2xl lg:ml-auto">
-            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-blue-600 mb-5">
+            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-primary mb-5">
               About Me
             </p>
 

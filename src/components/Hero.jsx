@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="relative h-[80vh] bg-[#09090B] flex items-center justify-center overflow-hidden">
+    <section className="relative h-[80vh] bg-primary flex items-center justify-center overflow-hidden">
 
   {/* Background Image */}
   <div
@@ -43,7 +43,7 @@ const Hero = () => {
   </h3>
 
   {/* Role */}
-  <p className="rounded-full border border-cyan-400/20 bg-cyan-500/10 px-6 py-2 text-base md:text-lg font-semibold text-cyan-300 backdrop-blur-md">
+  <p className="rounded-full border border-secondary/20 bg-secondary/10 px-6 py-2 text-base md:text-lg font-semibold text-secondary backdrop-blur-md">
     MERN Stack Developer
   </p>
 
@@ -69,7 +69,7 @@ const Hero = () => {
       href="https://www.linkedin.com/in/shubham-srivastava-702522309/"
       target="_blank"
       rel="noopener noreferrer"
-      className="rounded-xl bg-[#0A66C2] px-8 py-3 font-semibold text-white transition duration-300 hover:scale-105 hover:bg-[#004182]"
+      className="rounded-xl bg-primary px-8 py-3 font-semibold text-white transition duration-300 hover:scale-105 hover:bg-secondary"
     >
       LinkedIn
     </a>

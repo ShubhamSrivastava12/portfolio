@@ -1,6 +1,5 @@
 import React from "react";
-import laptop from "/laptop.png";
-import phone1 from "/phone1.png";
+import { Check } from "lucide-react";
 
 const Project1 = () => {
   const features = [
@@ -30,7 +29,7 @@ const Project1 = () => {
 
         {/* Heading */}
         <div className="mb-16 ml-15">
-          <p className="text-blue-600 uppercase tracking-[0.3em] text-sm font-semibold">
+          <p className="text-primary uppercase tracking-[0.3em] text-sm font-semibold">
             Project 1
           </p>
 
@@ -66,7 +65,10 @@ const Project1 = () => {
                   key={index}
                   className="flex items-start gap-3 text-gray-700"
                 >
-                  <span className="text-blue-600 mt-1">✔</span>
+                  <Check
+  size={18}
+  className="text-primary mt-1 flex-shrink-0"
+/>
                   <span>{feature}</span>
                 </li>
               ))}
@@ -76,7 +78,7 @@ const Project1 = () => {
           {/* Right */}
           <div className="flex justify-center -mt-20 mr-20">
             <img
-              src={laptop}
+              src='/laptop.png'
               alt="Expense Tracker Laptop Mockup"
               className="w-[1500px] max-w-5xl drop-shadow-[0_20px_60px_rgba(59,130,246,0.25)]"
             />
@@ -92,7 +94,7 @@ const Project1 = () => {
           {/* Left */}
           <div className="flex justify-center order-2 lg:order-1 -ml-110">
             <img
-              src={phone1}
+              src='/phone1.png'
               alt="Expense Tracker Mobile Mockup"
               className="w-[800px] md:w-[1100px] drop-shadow-[0_20px_60px_rgba(59,130,246,0.25)]"
             />
