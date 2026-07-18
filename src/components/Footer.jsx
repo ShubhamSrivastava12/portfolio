@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
 
           {/* Center */}
-          <div className="md:ml-auto">
+          <div className="md:ml-auto mr-34">
             <h3 className="text-xl text-black font-semibold mb-5">
               Quick Links
             </h3>
@@ -79,7 +79,7 @@ const Footer = () => {
             <div className="flex gap-5">
 
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/ShubhamSrivastava12"
                 target="_blank"
                 rel="noreferrer"
                 className="group p-3 rounded-xl bg-slate-800 hover:bg-primary transition"
@@ -91,7 +91,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/shubham-srivastava-702522309/"
                 target="_blank"
                 rel="noreferrer"
                 className="group p-3 rounded-xl bg-slate-800 hover:bg-primary transition"
@@ -103,7 +103,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="mailto:yourmail@gmail.com"
+                href="mailto:shubhamsrivastava1612@gmail.com"
                 className="group p-3 rounded-xl bg-slate-800 hover:bg-primary transition"
               >
                 <Mail

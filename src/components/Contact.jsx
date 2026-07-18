@@ -91,7 +91,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid gap-10 lg:grid-cols-2 relative z-10">
+        <div className="grid gap-10 lg:grid-cols-2 relative z-10 mb-8">
           {/* Left Side */}
           <div className="rounded-3xl border border-gray-100 bg-white/70 backdrop-blur-xl p-8 shadow-xl transition-all duration-300 hover:shadow-2xl">
             <h3 className="mb-8 text-2xl font-bold text-gray-900">
@@ -177,14 +177,16 @@ const Contact = () => {
             </div>
 
             <a
-              href="https://drive.google.com/file/d/1lUlie0Gt0AqhM-As_I5hzy1MRsPnVEbd/view?usp=drive_link"
-              target="_blank"
-              rel="noreferrer"
-              className="group mt-10 inline-flex items-center gap-3 rounded-xl bg-gradient-to-r from-primary to-primary/80 px-8 py-4 font-semibold text-white shadow-lg shadow-primary/30 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/40"
-            >
-              <Download size={20} className="transition-transform group-hover:-translate-y-1" />
-              Download Resume
-            </a>
+  href="/Shubham_Resume.pdf"
+  download="Shubham_Resume.pdf"
+  className="group mt-10 inline-flex items-center gap-3 rounded-xl bg-gradient-to-r from-primary to-primary/80 px-8 py-4 font-semibold text-white shadow-lg shadow-primary/30 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/40"
+>
+  <Download
+    size={20}
+    className="transition-transform group-hover:-translate-y-1"
+  />
+  Download Resume
+</a>
           </div>
 
           {/* Right Side */}

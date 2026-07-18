@@ -26,7 +26,10 @@ const Project1 = () => {
 ];
 
   return (
-    <section id="project1" className="text-white py-12 px-6 overflow-x-hidden scroll-mt-28.5">
+    <section
+  id="project1"
+  className="text-white py-12 px-5 sm:px-6 md:px-10 lg:px-16 xl:px-24 overflow-x-hidden scroll-mt-28.5"
+>
       <div className="max-w-[1700px] mx-auto">
 
         {/* Heading */}
