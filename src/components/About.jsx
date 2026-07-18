@@ -4,27 +4,27 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full py-24 px-6 md:px-12 lg:px-20"
+      className="w-full py-12 px-6 md:px-12 lg:px-20 scroll-mt-28.5"
     >
       <div className="mx-auto max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16">
           
           {/* Left Side (Logo Placeholder) */}
-          <div className="hidden lg:flex items-center justify-center">
+          <div className="flex items-center justify-center mb-8 lg:mb-0">
   <img
-    src="/about.png"
-    alt="About"
-    className="w-[420px] xl:w-[500px] object-contain"
+    src="/logo.png"
+    alt="Logo"
+    className="w-64 md:w-80 lg:w-[420px] xl:w-[500px] object-contain"
   />
 </div>
 
           {/* Right Side */}
           <div className="max-w-2xl lg:ml-auto">
-            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-primary mb-5">
-              About Me
+            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-secondary mb-5">
+              About Shubham Srivastava
             </p>
 
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-zinc-900">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-primary">
               MERN Stack Developer
             </h2>
 

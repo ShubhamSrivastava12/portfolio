@@ -65,7 +65,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="bg-gradient-to-b from-gray-50 to-white py-24 px-6 md:px-12 lg:px-20 relative overflow-hidden"
+      className="bg-gradient-to-b from-gray-50 to-white py-12 px-6 md:px-12 lg:px-20 relative overflow-hidden scroll-mt-28.5"
     >
       {/* Decorative background elements */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
@@ -73,15 +73,12 @@ const Skills = () => {
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-16">
-          <p className="text-primary font-semibold tracking-[0.25em] uppercase mb-3">
-            MY EXPERTISE
-          </p>
 
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary">
             Skills
           </h2>
 
-          <p className="mt-5 max-w-2xl mx-auto text-gray-600 leading-7">
+          <p className="mt-5 max-w-2xl mx-auto text-secondary leading-7">
             Technologies and tools I use to build fast, scalable, responsive,
             and modern full-stack web applications.
           </p>

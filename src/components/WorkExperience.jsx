@@ -19,15 +19,15 @@ const WorkExperience = () => {
   return (
     <section
       id="work-experience"
-      className="bg-white py-20 px-6 md:px-12 lg:px-24"
+      className="bg-white py-12 px-6 md:px-12 lg:px-24 scroll-mt-28.5"
     >
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <div className="mb-14 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary">
             Work Experience
           </h2>
-          <p className="mt-4 text-gray-600 text-lg max-w-3xl mx-auto">
+          <p className="mt-4 text-secondary text-lg max-w-3xl mx-auto">
             Professional experience building scalable full stack web
             applications, solving real-world business challenges, and delivering
             production-ready solutions using modern web technologies.
@@ -39,11 +39,11 @@ const WorkExperience = () => {
           {/* Company & Duration */}
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-8">
             <div>
-              <h3 className="text-3xl font-bold text-gray-900">
+              <h3 className="text-3xl font-bold text-primary">
                 Full Stack Developer Intern
               </h3>
 
-              <p className="text-xl font-semibold text-primary mt-1">
+              <p className="text-xl font-semibold text-secondary mt-1">
                 Tech Vimal Corporation Pvt. Ltd.
               </p>
             </div>
@@ -91,11 +91,11 @@ const WorkExperience = () => {
   {/* Company & Duration */}
   <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-8">
     <div>
-      <h3 className="text-3xl font-bold text-gray-900">
+      <h3 className="text-3xl font-bold text-primary">
         ServiceNow Developer Intern
       </h3>
 
-      <p className="text-xl font-semibold text-primary mt-1">
+      <p className="text-xl font-semibold text-secondary mt-1">
         Bangmetric Services, Noida
       </p>
     </div>

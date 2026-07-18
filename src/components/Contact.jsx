@@ -3,11 +3,10 @@ import {
   Mail,
   Phone,
   MapPin,
-//   Github,
-//   Linkedin,
   Download,
   Send,
 } from "lucide-react";
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Contact = () => {
   const accessKey = "5fc6729c-b163-4c3a-b5bd-825662ace458";
@@ -72,7 +71,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="bg-gradient-to-t from-gray-50 to-white py-24 px-6 md:px-12 lg:px-20 relative overflow-hidden"
+      className="bg-gradient-to-t from-gray-50 to-white py-12 px-6 md:px-12 lg:px-20 relative overflow-hidden scroll-mt-28.5"
     >
       {/* Decorative elements */}
       <div className="absolute top-1/4 right-0 w-72 h-72 bg-primary/5 rounded-full blur-3xl opacity-60"></div>
@@ -80,15 +79,12 @@ const Contact = () => {
       <div className="mx-auto max-w-7xl">
         {/* Heading */}
         <div className="mb-16 text-center">
-          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-primary">
-            CONTACT
-          </p>
 
-          <h2 className="text-4xl font-bold text-gray-900 md:text-5xl">
+          <h2 className="text-4xl font-bold text-primary md:text-5xl">
             Get In Touch
           </h2>
 
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
+          <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-secondary">
             Thanks for visiting my portfolio. If you have any questions,
             feedback, collaboration ideas, or simply want to connect, I'd love
             to hear from you. Feel free to send me a message anytime.
@@ -152,7 +148,7 @@ const Contact = () => {
                 className="group flex items-center gap-5 rounded-2xl border border-transparent bg-gray-50/50 p-4 transition-all duration-300 hover:scale-[1.02] hover:border-primary/20 hover:bg-white hover:shadow-md"
               >
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary transition-all duration-300 group-hover:scale-110 group-hover:bg-primary group-hover:text-white group-hover:shadow-md">
-                  {/* <Linkedin size={22} /> */}
+                  <FaLinkedin size={22} />
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">LinkedIn</p>
@@ -169,7 +165,7 @@ const Contact = () => {
                 className="group flex items-center gap-5 rounded-2xl border border-transparent bg-gray-50/50 p-4 transition-all duration-300 hover:scale-[1.02] hover:border-primary/20 hover:bg-white hover:shadow-md"
               >
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary transition-all duration-300 group-hover:scale-110 group-hover:bg-primary group-hover:text-white group-hover:shadow-md">
-                  {/* <Github size={22} /> */}
+                  <FaGithub size={22} />
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">GitHub</p>

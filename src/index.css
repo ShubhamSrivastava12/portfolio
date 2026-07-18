@@ -2,10 +2,23 @@
 
 @theme {
   --color-primary: #000473;
+  --color-primary-dark: #000366;
   --color-secondary: #686b0e;
+  --color-secondary-dark: #686b0d;
+  --font-sans: "Space Grotesk", sans-serif;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
 }
 
 img {
   transform-style: preserve-3d;
   transition: transform .2s ease;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
 }

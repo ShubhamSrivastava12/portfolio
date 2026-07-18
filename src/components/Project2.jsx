@@ -1,5 +1,7 @@
 import React from "react";
 import { Check } from "lucide-react";
+import { ExternalLink } from "lucide-react";
+import { FaGithub } from 'react-icons/fa';
 
 const Project2 = () => {
   const features = [
@@ -44,34 +46,34 @@ const Project2 = () => {
   ];
 
   return (
-    <section className="text-white py-24 px-6 overflow-x-hidden">
+    <section id="project2" className="text-white py-12 px-6 overflow-x-hidden scroll-mt-28.5">
       <div className="max-w-[1700px] mx-auto">
 
         {/* Heading */}
-        <div className="mb-16 ml-15">
-          <p className="text-primary uppercase tracking-[0.3em] text-sm font-semibold">
+        <div className="mb-12 lg:mb-16">
+          <p className="text-secondary uppercase tracking-[0.3em] text-sm font-semibold">
             Project 2
           </p>
 
-          <h2 className="mt-3 text-4xl md:text-5xl font-bold text-gray-900">
+          <h2 className="mt-3 text-4xl md:text-5xl font-bold text-primary">
             AI Image Generator
           </h2>
         </div>
 
         {/* Phone + Description */}
-        <div className="grid lg:grid-cols-2 gap-16 items-start">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
           {/* Left */}
-          <div className="flex justify-center -ml-20">
+          <div className="flex justify-center w-full">
             <img
               src='/ipad.png'
               alt="AI Image Generator Mobile Mockup"
-              className="w-[650px] md:w-[850px] drop-shadow-[0_20px_60px_rgba(59,130,246,0.25)]"
+              className="w-full max-w-[650px] md:max-w-[850px] drop-shadow-[0_20px_60px_rgba(59,130,246,0.25)]"
             />
           </div>
 
           {/* Right */}
-          <div className="mr-15">
+          <div>
             <h3 className="text-2xl font-semibold mb-5 text-gray-900">
               Project Description
             </h3>
@@ -106,13 +108,13 @@ const Project2 = () => {
         </div>
 
         {/* Divider */}
-        <div className="my-24 border-t border-gray-300"></div>
+        <div className="my-12 border-t border-gray-300"></div>
 
         {/* Technologies + iPad */}
-        <div className="grid lg:grid-cols-2 gap-10 items-start">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-10 items-start">
 
           {/* Left */}
-          <div className="ml-15">
+          <div>
             <h3 className="text-3xl font-bold mb-6 text-gray-900">
               Tools & Technologies
             </h3>
@@ -185,15 +187,41 @@ const Project2 = () => {
                 </div>
 
               </div>
+
+              {/* Project Links */}
+<div className="mt-12 flex flex-wrap gap-4">
+
+  <a
+    href="https://ai-image-generator-9c1y.onrender.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 rounded-lg bg-secondary px-6 py-3 font-semibold text-white transition-all duration-300 hover:scale-105 hover:shadow-lg"
+  >
+    <ExternalLink size={18} />
+    Live Demo
+  </a>
+
+  <a
+    href="https://github.com/ShubhamSrivastava12/ai-image-generator"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 rounded-lg border border-primary px-6 py-3 font-semibold text-primary transition-all duration-300 hover:bg-primary hover:text-white"
+  >
+    <FaGithub size={18} />
+    GitHub Repository
+  </a>
+
+</div>
+
             </div>
           </div>
 
           {/* Right */}
-          <div className="flex justify-center">
+          <div className="flex justify-center w-full">
             <img
               src='/phone2.png'
               alt="AI Image Generator iPad Mockup"
-              className="w-[1200px] max-w-5xl drop-shadow-[0_20px_60px_rgba(59,130,246,0.25)]"
+              className="w-full max-w-2xl lg:max-w-5xl drop-shadow-[0_20px_60px_rgba(59,130,246,0.25)]"
             />
           </div>
 

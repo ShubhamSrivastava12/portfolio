@@ -1,5 +1,7 @@
 import React from "react";
 import { Check } from "lucide-react";
+import { ExternalLink } from "lucide-react";
+import { FaGithub } from 'react-icons/fa';
 
 const Project1 = () => {
   const features = [
@@ -24,25 +26,25 @@ const Project1 = () => {
 ];
 
   return (
-    <section className="text-white py-24 px-6 overflow-x-hidden">
+    <section id="project1" className="text-white py-12 px-6 overflow-x-hidden scroll-mt-28.5">
       <div className="max-w-[1700px] mx-auto">
 
         {/* Heading */}
-        <div className="mb-16 ml-15">
-          <p className="text-primary uppercase tracking-[0.3em] text-sm font-semibold">
+        <div className="mb-12 lg:mb-16">
+          <p className="text-secondary uppercase tracking-[0.3em] text-sm font-semibold">
             Project 1
           </p>
 
-          <h2 className="mt-3 text-4xl md:text-5xl font-bold text-gray-900">
+          <h2 className="mt-3 text-4xl md:text-5xl font-bold text-primary">
             Expense Tracker Application
           </h2>
         </div>
 
         {/* Description + Laptop */}
-        <div className="grid lg:grid-cols-2 gap-16 items-start">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
           {/* Left */}
-          <div className="ml-15">
+          <div>
             <h3 className="text-2xl font-semibold mb-5 text-gray-900">
               Project Description
             </h3>
@@ -76,32 +78,32 @@ const Project1 = () => {
           </div>
 
           {/* Right */}
-          <div className="flex justify-center -mt-20 mr-20">
+          <div className="flex justify-center w-full">
             <img
               src='/laptop.png'
               alt="Expense Tracker Laptop Mockup"
-              className="w-[1500px] max-w-5xl drop-shadow-[0_20px_60px_rgba(59,130,246,0.25)]"
+              className="w-full max-w-2xl lg:max-w-5xl drop-shadow-[0_20px_60px_rgba(59,130,246,0.25)]"
             />
           </div>
         </div>
 
         {/* Divider */}
-        <div className="my-24 border-t border-gray-300"></div>
+        <div className="my-12 border-t border-gray-300"></div>
 
         {/* Mobile + Technologies */}
-        <div className="grid lg:grid-cols-[80%_20%] gap-0 items-start">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
 
           {/* Left */}
-          <div className="flex justify-center order-2 lg:order-1 -ml-110">
+          <div className="flex justify-center order-2 lg:order-1 w-full">
             <img
               src='/phone1.png'
               alt="Expense Tracker Mobile Mockup"
-              className="w-[800px] md:w-[1100px] drop-shadow-[0_20px_60px_rgba(59,130,246,0.25)]"
+              className="w-full max-w-lg lg:max-w-[800px] drop-shadow-[0_20px_60px_rgba(59,130,246,0.25)]"
             />
           </div>
 
           {/* Right */}
-<div className="order-1 lg:order-2 flex flex-col justify-between h-full -ml-90 mr-10">
+<div className="order-1 lg:order-2 flex flex-col justify-between h-full">
 
   {/* Tools & Technologies */}
   <div>
@@ -171,6 +173,32 @@ const Project1 = () => {
       </div>
 
     </div>
+
+    {/* Project Links */}
+<div className="mt-12 flex flex-wrap gap-4">
+
+  <a
+    href="https://expense-tracker-application-frontend-ry8v.onrender.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 rounded-lg bg-secondary px-6 py-3 font-semibold text-white transition-all duration-300 hover:scale-105 hover:shadow-lg"
+  >
+    <ExternalLink size={18} />
+    Live Demo
+  </a>
+
+  <a
+    href="https://github.com/ShubhamSrivastava12/expense-tracker-application"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 rounded-lg border border-primary px-6 py-3 font-semibold text-primary transition-all duration-300 hover:bg-primary hover:text-white"
+  >
+    <FaGithub size={18} />
+    GitHub Repository
+  </a>
+
+</div>
+
   </div>
 
 </div>
